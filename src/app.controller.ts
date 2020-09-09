@@ -14,4 +14,9 @@ export class AppController {
   getHelloV2(): string {
     return this.appService.getHello();
   }
+
+  @Get('v3')
+  getHelloV3(): string {
+    return this.appService.getHello();
+  }
 }
